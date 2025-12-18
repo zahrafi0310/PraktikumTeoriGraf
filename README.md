@@ -68,5 +68,5 @@ Terminal akan menunjukkan 4 langkah:
       [1, 7, 8, 11]
    
    Panjang LIS = 4
-   Total Path = 50 path
+   Total Path = 48 path
 ```
