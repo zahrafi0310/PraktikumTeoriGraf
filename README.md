@@ -62,7 +62,6 @@ Terminal akan menunjukkan hasil analisis Longest Increasing Subsequence (LIS):
    Longest Increasing Subsequence (LIS):
    [1, 7, 8, 11]
    [1, 2, 8, 11]
-   [7, 8, 11, 11]
    [0, 2, 8, 11]
 ```
 3. **Panjang LIS** - Menampilkan panjang dari subsequence terpanjang:
