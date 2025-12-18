@@ -52,21 +52,20 @@ sequence = [4, 1, 13, 7, 0, 2, 8, 11, 3]
 ### Output
 Terminal akan menunjukkan hasil analisis Longest Increasing Subsequence (LIS):
 
-1. **Tree Structure** - menunjukkan semua angka di input
-2. **Ekspansi Setiap Node** - Semua path yang bisa dibuat dari setiap angka
+1. **Input Sequence** - Menampilkan array input yang akan dianalisis
 ```
-   Dari 4:
-     * 4 ✓
-     * 4 → 7 → 8 → 11 ✓
-     ...
+   Input Sequence:
+   [4, 1, 13, 7, 0, 2, 8, 11, 3]
 ```
-3. **Hitung Total Path** - Berapa banyak path dari tiap angka
-4. **Cari Path Terpanjang** - menunjukkan semua LIS
+2. **Longest Increasing Subsequence (LIS)** - Menampilkan semua LIS dengan panjang maksimal yang berhasil ditemukan:
 ```
-   LIS (Longest Increasing Subsequence):
-      [4, 7, 8, 11]
-      [1, 7, 8, 11]
-   
+   Longest Increasing Subsequence (LIS):
+   [1, 7, 8, 11]
+   [1, 2, 8, 11]
+   [7, 8, 11, 11]
+   [0, 2, 8, 11]
+```
+3. **Panjang LIS** - Menampilkan panjang dari subsequence terpanjang:
+```
    Panjang LIS = 4
-   Total Path = 48 path
 ```
