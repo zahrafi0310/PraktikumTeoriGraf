@@ -1,33 +1,36 @@
 # PraktikumTeoriGraf
 
 ## Soal 1: Knight's Tour 🐴
-
 ### Deskripsi soal
-implementasi program visualisasi bidak kuda yang harus jalan ke seluiruh kotak papan catur 8x8 tepat satu kali
+Implementasi program visualisasi pergerakan bidak kuda yang harus mengunjungi seluruh kotak papan catur 8x8 tepat satu kali 
 
 ### Cara pakai
 ```
 python praktikum1.py
 ```
-1. Window muncul dengan papan catur 8x8
-2. pilih **"Open Tour"** atau **"Closed Tour"**
-   - Open Tour: kuda bebas berhenti di mana saja tempatnya
-   - Closed Tour: kuda harus bisa balik ke start dengan tambahan 1 langkah lagi
-3. Solusi akan muncul
-4. Klik **"Animate"** untuk melihat animasinya
-5. Klik **"Reset"** untuk ulang program dari awal
+1. Window muncul dengan papan catur 8x8 kosong
+2. **Klik kotak mana saja** di papan untuk memilih titik awal kuda
+3. Pilih jenis tour:
+   - **"Open Tour"**: Kuda mengunjungi 64 kotak, boleh berhenti di mana saja
+   - **"Closed Tour"**: Kuda mengunjungi 64 kotak dan harus bisa kembali ke posisi awal
+4. Tunggu algoritma menemukan solusi (ditandai dengan status "Solved: 64 kotak")
+5. Klik **"Visualisasi"** untuk melihat animasi pergerakan kuda step-by-step
+6. Klik **"Reset"** untuk memulai dari awal dengan titik start berbda
 
 ### Input
-Tidak ada input manual, program langsung berjalan dari posisi (0,0)
+- **User**: Klik mouse pada papan catur untuk memilih posisi awal kuda
+- **Button**: Pilihan Open/Closed Tour dan kontrol visualisasi
 
 ### Output
-- **Terminal:** `Solution found for OPEN tour!`
-- **Window:** 
-  - Papan catur dengan garis yang menunjukkan jalur kuda
-  - Angka 0-63 di setiap kotak yang memeberi tahu urutan kunjungan
-  - Panah merah menunjukkan posisi kuda sekarang
-  - Sidebar kanan akan muncul info progress dan tombol kontrol
- 
+**Window GUI:** 
+  - Papan catur 8x8 
+  - Kotak terpilih ditandai dengan warna biru muda
+  - Jalur pergerakan kuda ditampilkan dengan panah berurutan
+  - Angka 1-64 di setiap kotak menunjukkan urutan kunjungan
+  - Sidebar kanan menampilkan:
+    - Status pemilihan titik awal
+    - Jenis tour yang dipilih (Open/Closed)
+    - Konfirmasi "Solved: 64 kotak"
 ---
 
 ## Soal 2: LONGEST INCREASING SUBSEQUENCE (LIS) 📈
