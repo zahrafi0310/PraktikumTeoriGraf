@@ -50,7 +50,7 @@ sequence = [4, 1, 13, 7, 0, 2, 8, 11, 3]
 ```
 
 ### Output
-Terminal akan menunjukkan 4 langkah:
+Terminal akan menunjukkan hasil analisis Longest Increasing Subsequence (LIS):
 
 1. **Tree Structure** - menunjukkan semua angka di input
 2. **Ekspansi Setiap Node** - Semua path yang bisa dibuat dari setiap angka
